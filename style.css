@@ -50,6 +50,13 @@ h1 {
     left: 0;
     right: 0;
 }
+.side-hero > p>a{
+    color: white;
+    text-decoration: underline;
+}
+.side-hero > p>a:hover{
+color:#596D48;
+}
 
 
 .side-signup {
@@ -131,4 +138,12 @@ form>.btn-container>button {
 
 .side-signup p:last-child {
     margin-top: 0;
+}
+.side-signup p:last-child>a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#596D48;
+}
+.side-signup p:last-child>a:hover {
+    text-decoration: underline;
 }
