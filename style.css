@@ -109,7 +109,7 @@ label {
 }
 
 li {
-    width: min(350px, 100%);
+    width: min(450px, 100%);
     flex-grow: 1;
 }
 
@@ -123,6 +123,15 @@ li>input {
     ;
 }
 
+li>input:focus{
+    outline:1px solid lightskyblue ;
+    box-shadow: 0 0 5px #909190;
+}
+
+li>input.error{
+    outline: 1px solid red;
+}
+
 form>.btn-container {
     padding: 3rem var(--side-padding);
 }
@@ -134,6 +143,9 @@ form>.btn-container>button {
     border: 1px solid #596D48;
     border-radius: 5px;
     font-size: 1.2rem;
+}
+form>.btn-container>button:hover {
+    background-color: #729453;
 }
 
 .side-signup p:last-child {
